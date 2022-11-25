@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="main-header">
+        <input type="checkbox" id="menu" />
+  
+        <nav class="nav-bar">
+          <ul class="nav-bar__nav-list">
+            <li class="nav-bar__nav-item">
+              <a href="index.html" class="nav-bar__nav-link"> Inicio </a>
+            </li>
+            <li class="nav-bar__nav-item">
+              <a href="alta.html" class="nav-bar__nav-link"> Alta </a>
+            </li>
+            <li class="nav-bar__nav-item">
+              <a href="contacto.html" class="nav-bar__nav-link"> Contacto </a>
+            </li>
+            <li class="nav-bar__nav-item">
+              <a href="nosotros.html" class="nav-bar__nav-link"> Nosotros </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- nav-bar -->
+  
+        <div class="search-bar">
+          <div class="search-bar__logo-container"><img src="/img/logo/164x106 logo-01.png" alt=""></div>
+          <form action="" class="search-bar__form-container">
+            <label for="busqueda" class="search-bar__form-label"><i class="fa fa-search"></i></label>
+            <input type="search" class="search-bar__form-search" id="busqueda" />
+            <input type="submit" class="search-bar__form-submit" value="Buscar" />
+          </form>
+          <div class="search-bar__carrito-container"><i class="fa-solid fa-cart-shopping"></i></div>
+          <div class="menu-toggle">
+            <label for="menu" class="menu-toggle__label">
+              <span class="menu-toggle__top-bread"></span>
+              <span class="menu-toggle__meat"></span>
+              <span class="menu-toggle__bottom-bread"></span>
+            </label>
+          </div>
+        </div>
+        
+        <!-- search-bar -->
+        </header>
+    <main>
+         <form class="my-form">
+            <div class="container">
+            <h1> Contactanos</h1>
+             <ul>
+                     <li>
+                        <select>
+                            <option selected disabled>-- Opciones de contacto --</option>
+                            <option>Por una compra ya realizada</option>
+                            <option>Tengo un problema con el pago</option>
+                            <option>Mi producto no llego</option>
+                            <option>Servicio Posventa</option>
+                            <option>Otras consultas</option>        
+                        </select>
+                    </li>
+                    <li>
+                    <div class="grid grid-2">
+                        <input type="text" placeholder="Nombre" required>  
+                        <input type="text" placeholder="Apellido" required>
+                    </div>
+                </li>
+            <li>
+              <div class="grid grid-2">
+                <input type="email" placeholder="Email" required>  
+                <input type="telefono" placeholder="Celular">
+              </div>
+            </li>    
+            <li>
+              <textarea placeholder="Mensaje"></textarea>
+            </li>   
+            <li>
+              <input type="checkbox" id="terms">
+              <label for="terms">Acepto recibir información de <a href="">nuevos productos y ofertas.</a></label>
+            </li>  
+            <li>
+              <div class="grid grid-3">
+                <div class="required-mje">Campos Obligatorios</div>
+                <button class="btn-grid" type="submit">
+                  <span class="back">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+                  </span>
+                  <span class="front">ENVIAR</span>
+                </button>
+                <button class="btn-grid" type="reset">
+                  <span class="back">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+                  </span>
+                  <span class="front">BORRAR</span>
+                </button> 
+              </div>
+            </li>    
+          </ul>
+        </div>
+      </form>
+    </main>
+    <script src="https://kit.fontawesome.com/a97fbe1a4d.js" crossorigin="anonymous"></script>
+</body>
+</html>
