@@ -1,6 +1,7 @@
 
 .section-nosotros{
 
+     /*----- NOSOTROS HEADER -----*/
     &__header {
         background-image: url(/img/fondo/1920x1680-01.png);
     }
@@ -32,7 +33,7 @@
     @media (max-width: 768px) {
         &__header h1{
             font-size: 30px;
-            height: 10vh;
+            height: 30vh;
         }
 
         &__header p {
@@ -42,7 +43,7 @@
     
     }
 
-    
+    /*----- NOSOTROS MISIÓN -----*/
 
     &__mision{
         //height: 40vh;
@@ -90,22 +91,18 @@
     
         &__mision h2{
             text-align: center; 
-            //font-size: 40px;
-
-            font-size: 30px;
-            height: 10vh;
-            margin-left: 5px;
+            font-size: 40px;
         }
     
         &__mision p{
             font-size: 16px;
             width:80vw;
-            padding: 15px;
-            margin-left: 35px;
+            padding: 10px;
         }
     
     }
         
+    /*----- NOSOTROS LOCALES -----*/
 
     &__locacion{
         background-color: black;
@@ -144,21 +141,6 @@
             display: flex;
             flex-direction: column;
         }
-        &__locacion h3 {
-            width: 300px;
-            height: 100px;
-            margin-left: 45px;
-        }
-        &__locacion p {
-            text-align: center;
-            margin-left: 45px;
-            margin-top: 5px;
-        }
-        &__locacion_mapa{
-            width: 350px;
-            margin-left: 15px;
-            margin-right: 15px;
-        }
     }
 
     &__footer {
@@ -177,13 +159,6 @@
     &__iconos{
         margin-top: 40px;
         
-    }
-
-    @media (max-width:768px) {
-        &__seguinos {
-            margin-top: 20px;
-            margin-right: 120px
-        }
     }
   
 }
