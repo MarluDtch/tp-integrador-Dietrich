@@ -1,7 +1,7 @@
 
-/*
+
 class CarritoService {
-    URL_CARRITO = //'https://633ccbe57e19b17829025dff.mockapi.io/carrito/'
+    URL_CARRITO = 'https://6380f50d786e112fe1bf16c6.mockapi.io/carrito' 
 
     async guardarCarritoServicio(carrito) {
         //                    usa el metodo post declrado en http client
@@ -11,4 +11,4 @@ class CarritoService {
 
 }
 
-const carritoService = new CarritoService()*/
+const carritoService = new CarritoService()
