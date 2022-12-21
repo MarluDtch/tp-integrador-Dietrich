@@ -80,4 +80,4 @@ class CarritoController extends CarritoModel {
      }
 }
 
-const CarritoController = new CarritoController()
+const carritoController = new CarritoController()

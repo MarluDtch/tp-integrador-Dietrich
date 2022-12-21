@@ -44,4 +44,4 @@ class ProductoController extends ProductoModel {
     }
 }
 
-const ProductoController = new ProductoController()
+const productoController = new ProductoController()
